@@ -1,6 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
 html, body{
     margin: 0;
     height: 100%;
+    
 }
 
 .container{
@@ -12,12 +17,14 @@ html, body{
 
 .container > *{
     outline: none;
-    height: 30px;
+    height: 32px;
 }
 
 .button{
     background-color: #4EBBE4;
     border: 1px solid #16A2D7;
+    width: 30px;
+    color:white;
 }
 
 .left{
@@ -29,5 +36,8 @@ html, body{
 }
 
 input[type='text'] {
-    padding: 0;
+    border: 1px solid #D7DBDD;
+    padding: 0 10px;
+    width: 80px;
+    text-align: center;
 }
