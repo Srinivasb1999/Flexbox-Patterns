@@ -1,0 +1,39 @@
+*{
+    font-family: 'consolas';
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #56727C;
+    padding: 10px;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+}
+
+.header-item{
+    padding: 5px 15px;
+    font-size: 18px;
+}
+
+.logo{
+    padding: 5px 25px;
+    font-size: 25px;
+    cursor: pointer;
+    line-height: 0;
+    color: white;
+}
+
+.button{
+    cursor: pointer;
+    color: #D9E9EF;
+}
+
+.isSelected{
+    background-color: #415F69;
+    color: #FFF;
+    border-radius: 4px;
+}
