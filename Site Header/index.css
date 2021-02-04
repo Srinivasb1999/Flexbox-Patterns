@@ -1,39 +1,45 @@
-*{
+* {
     font-family: 'Open Sans', sans-serif;
 }
 
-.header{
+html,
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
     display: flex;
     justify-content: space-between;
-    background-color: #56727C;
+    background-color: #56727c;
     padding: 10px;
 }
 
-.section{
+.section {
     display: flex;
     align-items: center;
 }
 
-.header-item{
+.header-item {
     padding: 5px 15px;
-    font-size: 18px;
+    font-size: 17px;
 }
 
-.logo{
-    padding: 5px 25px;
+.logo {
+    padding: 5px 35px;
     font-size: 25px;
     cursor: pointer;
     line-height: 0;
     color: white;
 }
 
-.button{
+.button {
     cursor: pointer;
-    color: #D9E9EF;
+    color: #d9e9ef;
 }
 
-.isSelected{
-    background-color: #415F69;
-    color: #FFF;
+.isSelected {
+    background-color: #415f69;
+    color: #fff;
     border-radius: 4px;
 }
