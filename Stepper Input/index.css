@@ -1,0 +1,33 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > *{
+    outline: none;
+    height: 30px;
+}
+
+.button{
+    background-color: #4EBBE4;
+    border: 1px solid #16A2D7;
+}
+
+.left{
+    border-radius: 4px 0 0 4px;
+}
+
+.right{
+    border-radius: 0 4px 4px 0;
+}
+
+input[type='text'] {
+    padding: 0;
+}
