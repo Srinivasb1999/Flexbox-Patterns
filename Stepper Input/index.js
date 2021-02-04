@@ -2,15 +2,14 @@ const minus = document.querySelector('.left');
 const plus = document.querySelector('.right');
 const input = document.querySelector('input');
 
-minus.addEventListener('keyup', () => {
+minus.addEventListener('click', () => {
     let data = input.value;
     data--;
-    value.textContent = data;
+    input.value = data;
 });
 
-plus.addEventListener('keyup', () => {
+plus.addEventListener('click', () => {
     let data = input.value;
     data++;
-    value.textContent = data;
+    input.value = data;
 });
-
